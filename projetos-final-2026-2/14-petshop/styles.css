@@ -7,14 +7,14 @@
 
 /* Variáveis (Custom Properties) — facilitam manter o tema */
 :root {
-  --primary: #db2777;
-  --accent: #fbcfe8;
-  --bg: #fff5fa;
-  --text: #1f2937;
-  --muted: #6b7280;
-  --card: #ffffff;
+  --primary: #3638b1; 
+  --accent: #95cee9;
+  --bg: #b7d2e2;
+  --text: #89afe7;
+  --muted: #2e225a;
+  --card: #8ca7f0;
   --radius: 14px;
-  --shadow: 0 10px 30px rgba(0,0,0,.08);
+  --shadow: 0 10px 30px rgba(224, 134, 212, 0.08);
   --container: 1100px;
 }
 
@@ -42,7 +42,7 @@ img { max-width: 100%; display: block; }
 /* ---------- HEADER / NAV ---------- */
 header.site-header {
   background: var(--primary);
-  color: #fff;
+  color: #aa9120;
   position: sticky; /* fixa ao rolar */
   top: 0;
   z-index: 50;

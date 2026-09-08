@@ -7,12 +7,12 @@
 
 /* Variáveis (Custom Properties) — facilitam manter o tema */
 :root {
-  --primary: #6b3fa0;
-  --accent: #d6c4ec;
-  --bg: #faf7ff;
-  --text: #1f2937;
-  --muted: #6b7280;
-  --card: #ffffff;
+  --primary: url('imagem/img1.png');
+  --accent: #305240;
+  --bg: #f3faf4;
+  --text: #205548;
+  --muted: #283630;
+  --card: #057e4f;
   --radius: 14px;
   --shadow: 0 10px 30px rgba(0,0,0,.08);
   --container: 1100px;
@@ -42,7 +42,7 @@ img { max-width: 100%; display: block; }
 /* ---------- HEADER / NAV ---------- */
 header.site-header {
   background: var(--primary);
-  color: #fff;
+  color: #7be477;
   position: sticky; /* fixa ao rolar */
   top: 0;
   z-index: 50;
@@ -66,7 +66,7 @@ header.site-header {
   display: none;
   background: transparent;
   border: 0;
-  color: #fff;
+  color: #80d375;
   font-size: 1.6rem;
   cursor: pointer;
 }
